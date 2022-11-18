@@ -1,5 +1,5 @@
 import React from "react";
-import './Futer.css'
+import './Futer.module.css'
 
 const Futer = () => {
   return <div className="futer">

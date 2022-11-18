@@ -1,5 +1,5 @@
 import React from "react";
-import './Nav.css'
+import "./Nav.module.css";
 
 const Nav = () => {
   return (
@@ -13,7 +13,7 @@ const Nav = () => {
         <a href="https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md ">
           Masaeges
         </a>
-      </div >
+      </div>
       <div className="item">
         <a href="https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md ">
           News
@@ -24,7 +24,7 @@ const Nav = () => {
           Music
         </a>
       </div>
-      <br/>
+      <br />
       <div className="item">
         <a href="https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md ">
           Settings
