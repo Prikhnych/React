@@ -1,5 +1,6 @@
 import "./App.css";
-import AppWrap from "./models/AppWrap";
+import AppWrap from './models/appWrap/AppWrap';
+
 
 function App() {
   return (

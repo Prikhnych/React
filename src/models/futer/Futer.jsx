@@ -1,4 +1,5 @@
 import React from "react";
+import './Futer.css'
 
 const Futer = () => {
   return <div className="futer">

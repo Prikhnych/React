@@ -1,8 +1,9 @@
 import React from 'react';
-import Header from './Header';
-import Nav from './Nav';
-import Futer from './Futer';
-import Content from './Content';
+import './appWrap.css'
+import Header from '../header/Header';
+import Nav from '../nav__bar/Nav';
+import Futer from '../futer/Futer';
+import Content from '../content/Content';
 
 const AppWrap = () => {
   return (

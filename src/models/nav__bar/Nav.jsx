@@ -1,31 +1,33 @@
 import React from "react";
+import './Nav.css'
 
 const Nav = () => {
   return (
     <nav className="nav__bar">
-      <div>
+      <div className="item">
         <a href="https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md ">
           Profil
         </a>
       </div>
-      <div>
+      <div className="item">
         <a href="https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md ">
-          Profil
+          Masaeges
+        </a>
+      </div >
+      <div className="item">
+        <a href="https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md ">
+          News
         </a>
       </div>
-      <div>
+      <div className="item">
         <a href="https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md ">
-          Profil
+          Music
         </a>
       </div>
-      <div>
+      <br/>
+      <div className="item">
         <a href="https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md ">
-          Profil
-        </a>
-      </div>
-      <div>
-        <a href="https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md ">
-          Profil
+          Settings
         </a>
       </div>
     </nav>
