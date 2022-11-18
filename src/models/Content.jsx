@@ -2,7 +2,7 @@ import React from "react";
 
 const Content = () => {
   return <div className="content">
-    <img src="-#" alt="" />
+    <img className="content__img" src="-#" alt="" />
   </div>;
 };
 

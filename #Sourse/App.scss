@@ -1,9 +1,39 @@
 .App {
+  zoom: 100%;
 }
 .app__wrap {
+  display: grid;
+  grid-template-areas:
+    "h h "
+    "nb c"
+    "f f";
+  grid-template-columns: 1fr 10fr;
+  grid-template-rows: 60px 1fr 60px;
 }
-
-.header{background-color: green;}
-.nav__bar{background-color: green;}
-.content{background-color: blue;}
-.futer{background-color: blueviolet;}
+.header {
+  grid-area: h;
+  background-color: green;
+  &__img {
+    height: 60px;
+    width: 60px;
+    background-color: red;
+  }
+}
+.nav__bar {
+  grid-area: nb;
+  background-color: rgb(102, 236, 102);
+}
+.content {
+  grid-area: c;
+  height: 600px;
+  background-color: blue;
+  &__img {
+    width: 1400px;
+    height: 250px;
+    background-color: red;
+  }
+}
+.futer {
+  grid-area: f;
+  background-color: blueviolet;
+}

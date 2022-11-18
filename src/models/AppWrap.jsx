@@ -1,14 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Header from './Header';
 import Nav from './Nav';
 import Futer from './Futer';
+import Content from './Content';
 
 const AppWrap = () => {
   return (
     <div className='app__wrap'>
       <Header/>
       <Nav/>
-      <Component/>
+      <Content/>
       <Futer/>
     </div>
   );

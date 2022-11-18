@@ -4,7 +4,7 @@ import AppWrap from "./models/AppWrap";
 function App() {
   return (
     <div className="App">
-      <AppWrap />
+      <AppWrap/>
     </div>
   );
 }
