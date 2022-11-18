@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./AppWrap.module.css";
+
 import Header from "../header/Header";
 import Nav from "../nav__bar/Nav";
 import Futer from "../futer/Futer";

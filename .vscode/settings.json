@@ -4,7 +4,7 @@
   "liveSassCompile.settings.formats": [
       {
           "format": "expanded",
-          "extensionName": ".module.css",
+          "extensionName": ".css",
           // путь создания
         //   "savePath": "/", 
         "savePath": null,
