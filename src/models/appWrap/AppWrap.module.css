@@ -1,8 +1,0 @@
-.app__wrap {
-  display: grid;
-  grid-template-areas: "h h " "nb c" "f f";
-  grid-template-columns: 2fr 10fr;
-  grid-template-rows: 60px 1fr 60px;
-  grid-gap: 0.5%;
-  background-color: aqua;
-}

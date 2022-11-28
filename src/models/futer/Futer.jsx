@@ -1,8 +1,8 @@
 import React from "react";
-import './Futer.module.css'
+import s from './Futer.module.css'
 
 const Futer = () => {
-  return <div className="futer">
+  return <div className={s.futer}>
     <span>hello futer</span>
   </div>;
 };

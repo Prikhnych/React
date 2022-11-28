@@ -1,11 +1,20 @@
 import "./App.css";
-import AppWrap from './models/appWrap/AppWrap';
 
+
+import Header from "../src/models/header/Header.jsx";
+import Nav from "../src/models/nav__bar/Nav.jsx";
+import Futer from "../src/models/futer/Futer.jsx";
+import Content from "../src/models/content/Content.jsx";
 
 function App() {
   return (
     <div className="App">
-      <AppWrap/>
+      <div className="app__wrap">
+        <Header />
+        <Nav />
+        <Content />
+        <Futer />
+      </div>
     </div>
   );
 }

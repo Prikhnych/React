@@ -1,10 +1,10 @@
 import React from "react";
-import  "./Content.module.css";
+import s from  "./Content.module.css";
 
 const Content = () => {
   return (
-    <div className="content">
-      <img className="content__img" src="-#" alt="" />
+    <div className={s.content}>
+      <img className={s.content__img} src="-#" alt="" />
     </div>
   );
 };
