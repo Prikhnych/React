@@ -1,21 +1,29 @@
 import React from "react";
-import s from './myPosts.module.css'
+import s from "./MyPosts.module.css";
+import Post from "./Post/Post";
 
-
-
-const myPosts = () => {
+const MyPosts = () => {
   return (
-    <div>
-      My post 
-      <div>
-        New post 
-        <div className={s.post}>
-          <div className={s.iteam}>
-            Post 1
+    <div className={s.post}>
+      My post
+      <div className={s.post}>
+        New post
+        <div>
+          <div>
+            <textarea
+              className={s.text_area}
+              name=""
+              id=""
+
+            ></textarea>
+            <button>Add Post</button>
+            <button>Remove</button>
           </div>
-          <div
-          className={s.iteam}>
-            Post 2
+          <div>
+            <Post />
+            <Post />
+            <Post />
+            <Post />
           </div>
         </div>
       </div>
@@ -23,4 +31,4 @@ const myPosts = () => {
   );
 };
 
-export default myPosts;
+export default MyPosts;
